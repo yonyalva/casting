@@ -25,6 +25,10 @@ def after_request(response):
 def hi():
     return "Hi!, this is only being used as a backeend API"
 
+@app.route('/coolkids')
+def be_cool():
+    return "Be cool Yony, be coooool! You're almost a FSND grad!"
+
 @app.route('/actors')
 # creates the actors endpoint
 def get_actors():
