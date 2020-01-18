@@ -5,8 +5,8 @@ import os
 
 database_name = "casting"
 # database_path = "postgres://{}/{}".format('localhost:5432', database_name)
-database_path = "postgres://xhpjsqghzblfhw:296305ef6a0eee80401beb72d22038eaa4d6a6c3c9b31c972b98ef209c67568b@ec2-3-214-53-225.compute-1.amazonaws.com:5432/dq2hs3jjfhbj4"
-
+# database_path = "postgres://xhpjsqghzblfhw:296305ef6a0eee80401beb72d22038eaa4d6a6c3c9b31c972b98ef209c67568b@ec2-3-214-53-225.compute-1.amazonaws.com:5432/dq2hs3jjfhbj4"
+database_path = "postgres://iarazmijbiihka:38af9e7389a8b08dde8017aaf5c643bc0eca6d04917ddaf54afc79f71a0d927b@ec2-107-21-214-101.compute-1.amazonaws.com:5432/defovs75l662bv"
 db = SQLAlchemy()
 
 '''
